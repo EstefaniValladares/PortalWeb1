@@ -1,0 +1,2 @@
+bootstrap, jquery, popper:
+    npm install bootstrap jquery @popperjs/core
