@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'promociones',component:PromocionesComponent},
   {path: 'trabajo',component:TrabajoComponent},
   {path: 'tienda',component:TiendaComponent},
-  {path:'**', component: PrincipalComponent},
+ 
 ];
 
 
