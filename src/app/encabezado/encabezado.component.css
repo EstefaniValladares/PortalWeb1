@@ -1,0 +1,28 @@
+.imgRepetir{
+    background-image: url("../../assets/header.jpg");
+    background-repeat: repeat-x;
+}
+.head{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.NBar{
+    /*border-top-left-radius: 5px; */
+    /*border-top-right-radius: 5px;*/
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+} 
+.navbarFixed {
+    top: 0;
+    position: fixed;
+    width: 96%;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.imagen {
+    content:url('../../assets/veteLogo.png');
+    width: 128px;
+    height: 64px;
+    margin-right: 10px;
+}
