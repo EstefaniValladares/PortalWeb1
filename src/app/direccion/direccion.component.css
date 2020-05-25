@@ -1,8 +1,7 @@
 footer{
-    
-    
-    
-        height: 4rem;
-        background-color: #e2e2e2
-    
+    /*height: 4rem;*/
+    background-color: #ababab;
+}
+.FooterEnd{
+    background-color: #8f8f8f 
 }

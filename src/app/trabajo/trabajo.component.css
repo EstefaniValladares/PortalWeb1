@@ -1,0 +1,10 @@
+hr{
+    border: 1px solid #007bff;
+}
+section hr{
+    border: 2px solid #ede9e2;
+}
+.servicios{
+    padding-right: 5%;
+    padding-left: 5%;
+}
