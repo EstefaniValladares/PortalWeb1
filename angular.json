@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PortalWeb1"
+    }
+  },
+  "defaultProject": "PortalWeb1",
+  "cli": {
+    "analytics": "e6a42397-3d0c-465f-9e49-62de24f2bcb9"
+  }
 }
