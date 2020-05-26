@@ -1,4 +1,4 @@
-<p>tienda works cecy!</p>
+<p>tienda works!</p>
 <div class="container-fluid">
     <section>
         <div class="text-center">
@@ -10,6 +10,7 @@
         <div class="row card-group">
             <div class="col-3" *ngFor="let imagen of imagenes; let i=index">
                 <div class="card">
+                    <img src="{{imagenes[i]}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="card-title">
                             <h5>{{titulos[i]}}</h5>
@@ -19,7 +20,7 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ver Promocion</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">COMPRAR</button>
                     </div>
                 </div>
                 <br>
