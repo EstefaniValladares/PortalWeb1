@@ -1,1 +1,30 @@
-<p>promociones works!</p>
+<div class="container-fluid">
+    <section>
+        <div class="text-center">
+            <h2>Promociones</h2>
+        </div>
+        <hr>
+    </section>
+    <section>
+        <div class="row card-group">
+            <div class="col-3" *ngFor="let imagen of imagenes; let i=index">
+                <div class="card">
+                    <img src="{{imagenes[i]}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h5>{{titulos[i]}}</h5>
+                        </div>
+                        <div class="card-text">
+                            <p>{{descripciones[i]}}</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Ver promoción</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </section>
+</div>
+<br>
