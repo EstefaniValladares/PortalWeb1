@@ -15,19 +15,21 @@ export class TiendaComponent implements OnInit {
   ];
 
   titulos = [
-    'Corte gratis',
-    '20% Descuetno en SPA',
-    'Dia de esterilización',
-    'Nueva marca de croquetas',
-    'Un dia de Adiestramiento'
+    'Sueter para cachorro',
+    'Correa reforzada',
+    'Tazon para croquetas',
+    'Shampoo para pelo negro',
+    'Shampoo para pelo esponjado',
+    'Hueso de carnaza'
   ];
 
   descripciones = [
-    'Llevate un corte para tu mascota gratis',
-    'Obtén el 20% de descuento para un dia de SPA para tu mascota',
-    'Esteriliza a tu mascota, en este dia, aprovecha la campaña de esterilizacion',
-    'Conoce la nueva marca de croquetas. Una nueva marca que tiene la mejor proteina para tu mascota',
-    'Ven con tu mascota y obten un dia de adiestramiento canino para que mejore sus habilidades de convivencia'
+    'sueter de felpa para cachorro, talla ch, m, g',
+    'Correa con refuerzo de 2mt',
+    'Tazon antiderrapable para croquetas con division',
+    'Shampoo especial para pelo negro y lacio',
+    'shampoo especial para pelo esponjado ',
+    'Juguete suave'
   ];
   constructor() { }
 
