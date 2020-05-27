@@ -10,6 +10,8 @@ import { DireccionComponent } from './direccion/direccion.component';
 import { FiltrosComponent } from './filtros/filtros.component';
 import { TrabajoComponent } from './trabajo/trabajo.component';
 import { TiendaComponent } from './tienda/tienda.component';
+import {FormsModule} from '@angular/forms'
+import { PipsPipe } from './pipes/pips.pipe';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { TiendaComponent } from './tienda/tienda.component';
     DireccionComponent,
     FiltrosComponent,
     TrabajoComponent,
-    TiendaComponent
+    TiendaComponent,
+    PipsPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
